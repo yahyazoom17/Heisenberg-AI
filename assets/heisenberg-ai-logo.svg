@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0D1117" />
+  
+  <!-- Chemical flask -->
+  <path d="M350 100 L300 250 L300 320 L500 320 L500 250 L450 100 Z" stroke="#81C784" stroke-width="8" fill="none" />
+  
+  <!-- Flask neck -->
+  <rect x="380" y="70" width="40" height="30" fill="none" stroke="#81C784" stroke-width="6" />
+  
+  <!-- Blue crystals/liquid -->
+  <path d="M310 260 L490 260 L480 320 L320 320 Z" fill="#137CBD" opacity="0.7" />
+  
+  <!-- Chemical bubbles -->
+  <circle cx="340" cy="280" r="10" fill="#64FFDA" opacity="0.8" />
+  <circle cx="370" cy="290" r="8" fill="#64FFDA" opacity="0.8" />
+  <circle cx="400" cy="280" r="12" fill="#64FFDA" opacity="0.8" />
+  <circle cx="430" cy="295" r="7" fill="#64FFDA" opacity="0.8" />
+  <circle cx="460" cy="285" r="9" fill="#64FFDA" opacity="0.8" />
+  
+  <!-- Heisenberg hat silhouette -->
+  <path d="M375 50 L425 50 L425 70 L450 70 L450 85 L350 85 L350 70 L375 70 Z" fill="#222222" />
+  
+  <!-- Text -->
+  <text x="400" y="360" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="white" text-anchor="middle">HEISENBERG-AI</text>
+  
+  <!-- Periodic table element style -->
+  <rect x="650" y="100" width="80" height="80" fill="#137CBD" stroke="#81C784" stroke-width="3" />
+  <text x="690" y="140" font-family="'Arial', sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">Hb</text>
+  <text x="690" y="165" font-family="'Arial', sans-serif" font-size="12" fill="white" text-anchor="middle">BREAKING BAD</text>
+  
+  <!-- Chemical structure hints (methamphetamine simplified) -->
+  <line x1="150" y1="150" x2="200" y2="150" stroke="#81C784" stroke-width="3" />
+  <line x1="200" y1="150" x2="225" y2="190" stroke="#81C784" stroke-width="3" />
+  <line x1="225" y1="190" x2="175" y2="190" stroke="#81C784" stroke-width="3" />
+  <line x1="175" y1="190" x2="150" y2="150" stroke="#81C784" stroke-width="3" />
+  <circle cx="150" cy="150" r="8" fill="#137CBD" />
+  <circle cx="200" cy="150" r="8" fill="#137CBD" />
+  <circle cx="225" cy="190" r="8" fill="#137CBD" />
+  <circle cx="175" cy="190" r="8" fill="#137CBD" />
+</svg>

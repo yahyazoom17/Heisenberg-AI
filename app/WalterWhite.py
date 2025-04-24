@@ -36,3 +36,5 @@ if submit_button and user_input.strip():
 
 with st.container():
     display_chat()
+
+st.image("assets\heisenberg-ai-logo.svg", caption="Created By Yahya", use_container_width=True)
