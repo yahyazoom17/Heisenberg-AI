@@ -1,10 +1,14 @@
 from openai import OpenAI
+import os
+from dotenv import load_dotenv
 
-API_KEY="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"
+load_dotenv()
+
+api_key = os.getenv("OPEN_ROUTER_API_KEY")
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key=API_KEY,
+  api_key=api_key,
 )
 
 def askWalt(message):
